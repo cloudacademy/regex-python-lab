@@ -1,4 +1,4 @@
 FROM cloudacademydevops/ide:python-regex
 USER root
-WORKDIR /home/project
+WORKDIR /root/lab/
 COPY src ./src
