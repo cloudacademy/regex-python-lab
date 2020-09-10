@@ -1,5 +1,5 @@
-FROM cloudacademydevops/ide:python37
+FROM cloudacademydevops/ide:python-regex
 USER root
-WORKDIR /root/lab/
+WORKDIR /home/project
 COPY src ./src
 COPY test ./test
