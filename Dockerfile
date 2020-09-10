@@ -3,3 +3,4 @@ USER root
 WORKDIR /home/project
 COPY src ./src
 COPY test ./test
+WORKDIR /home/theia
