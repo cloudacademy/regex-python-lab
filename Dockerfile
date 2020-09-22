@@ -1,5 +1,5 @@
 FROM cloudacademydevops/ide:python-regex
 USER root
-WORKDIR /home/theia
+WORKDIR /root/lab
 COPY src ./src
 COPY test ./test
