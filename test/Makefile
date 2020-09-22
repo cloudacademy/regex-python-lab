@@ -1,4 +1,5 @@
 check:
 	mkdir -p ../check
 	cp ../src/Regex.py ../check
-	python -B test_challenge_one.py TestChallenge.test
+	python3 ../check/Regex.py > output.txt
+	grep "Matches: \['Th', ' q', 'ck br', 'wn f', 'x j', 'mps ', 'v', 'r th', ' l', 'zy d', 'g.'\]" output.txt
